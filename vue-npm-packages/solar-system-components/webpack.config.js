@@ -8,7 +8,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, './dist'), //输出路径，就是上步骤中新建的dist目录，
         publicPath: '/dist/',
-        filename: 'solarSystem.min.js',
+        filename: 'MlSolarSystem.min.js',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },

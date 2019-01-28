@@ -6,7 +6,8 @@ There are some small vue learning examples.
 ## vue-project-store
 > vue学习过程中所做的小项目
 
-* todo-list: 很简单的一个demo
+* todo-list: 很简单的一个demo;
+（2019-01-28）增加debucsser来进行测试css debug，可ctrl+鼠标看到class、id、宽*高，可shift+ctrl+鼠标列出所有
 * Spinner: 没有用vue-cli做的一个简单的点击input框出现下拉框，做了悬停高亮的效果，监听点击别的地方事件，下拉框消失
 * spinner-cli:这个是使用vue-cli脚手架来做的模块化的形式，此处的点击别的地方，下拉框消失的处理方式牵强笨拙；现在看来也可以将上一个的方法放在mounted中执行，后续更可以使用自定义指令来实现
 * my-pagenation:实现了一个分页demo

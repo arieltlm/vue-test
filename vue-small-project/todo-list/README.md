@@ -22,3 +22,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 主要有父组件传给子组件后 如何动态直接拿来使用。
 同时可后期研究[详解vue2父组件传递props异步数据到子组件的问题](http://www.jb51.net/article/117447.htm)
+
+## debucsser测试

@@ -6,7 +6,7 @@
                 :key="index"
                 :class="runIs"
                 :style="{animationDuration:ballGroup[index].speed,
-                width:ballGroup[index].orbitR,height:ballGroup[index].orbitR}"
+                width:ballGroup[index].orbitR,height:0,paddingBottom:ballGroup[index].orbitR}"
                 @mouseover="hoverStop"
                 @mouseout="outBall">
                 <div class="pos"
@@ -32,7 +32,7 @@
 </template>
 <script>
 export default {
-    name: 'solar-system',
+    name: 'MlSolarSystem',
     data () {
         return {
             runIs: 'runningS'

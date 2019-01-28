@@ -2,7 +2,7 @@
 	<div class="clearfix">
 		<ul>
 			<li :class="{disabled:first}" @click="prePage">上一页</li>
-			<li v-for="(page,index) in pagess"  @click="activeNow(page)" v-bind:class="{active:page==checked}">{{page}}</li>
+			<li v-for="(page,index) in pagess" :key="index" @click="activeNow(page)" v-bind:class="{active:page==checked}">{{page}}</li>
 			<li :class="{disabled:last}" @click="nextPage">下一页</li>
 		</ul>
 		<p class="jumpPage">跳转至<input type="text" @change="jumpPages($event.target.value)">页</p>
@@ -52,7 +52,7 @@
 				}else{
 					this.last = false;
 				}
-				
+
 				//下一页
 				if(this.checked == this.end&&this.end<this.pageSize){
 					this.start ++
@@ -106,7 +106,7 @@
 			}
 		}
 	}
-	
+
 </script>
 <style scoped>
 	ul,li{
@@ -132,7 +132,7 @@
 		border-top-left-radius: 5px;
 		border-bottom-left-radius: 5px;
 	}
-	
+
 	li:last-child{
 		width:50px;
 		border-top-right-radius: 5px;
@@ -161,5 +161,5 @@
 	    border-radius: 5px;
 	    margin-bottom: 20px;
 	}
-	
+
 </style>

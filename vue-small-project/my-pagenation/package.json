@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "ml-solar-system": "^1.0.8",
     "vue": "^2.5.2",
     "vue-solar-system": "^1.0.4"
   },

@@ -4,6 +4,7 @@
     height: 100%;
     background:#000 no-repeat center center;
     background-size:100% 100%;
+    overflow: hidden;
 }
 
 
@@ -46,7 +47,7 @@
     border-radius: 50%;
     border: 2px solid rgba(82, 210, 224,0.5);
     transform-style: preserve-3d;
-    animation-name: orbit;
+    // animation-name: orbit;
     animation-duration: 100s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -61,7 +62,7 @@
     margin-left: -1em;
     margin-top:-1em;
     transform-style: preserve-3d;
-    animation-name: invert;
+    // animation-name: invert;
     animation-duration: 100s;
     animation-iteration-count:infinite;
     animation-timing-function: linear;
@@ -121,6 +122,7 @@
         color:#fff;
         font-size:2em;
         z-index:10;
+        transform: rotate(4deg);
     }
 }
 

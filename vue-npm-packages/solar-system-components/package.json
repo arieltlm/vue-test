@@ -1,8 +1,8 @@
 {
-  "name": "vue-solar-system",
-  "version": "1.0.4",
+  "name": "ml-solar-system",
+  "version": "1.0.8",
   "description": "css3 solar-system bar by vue",
-  "main": "dist/solarSystem.min.js",
+  "main": "dist/MlSolarSystem.min.js",
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
