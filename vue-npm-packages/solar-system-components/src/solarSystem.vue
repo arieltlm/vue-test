@@ -23,9 +23,9 @@
                     </div>
                 </div>
             </div>
-                <div id="sun" :style="{width: centerSun.centerSunWidth,height: centerSun.centerSunHeight}">
-                    <img :src="centerSun.centerSunImg" alt="">
-                    <p class="sunLabel">{{centerSun.centerSunLabel}}</p>
+            <div id="sun" :style="{width: centerSun.centerSunWidth,height: centerSun.centerSunHeight}">
+                <img :src="centerSun.centerSunImg" alt="">
+                <p class="sunLabel">{{centerSun.centerSunLabel}}</p>
             </div>
         </div>
     </div>
