@@ -2,7 +2,7 @@
 # ml-bar2d 二维数据立体柱子组件
 ----
 
-```
+```js
 import mlBar2d from 'vue-amcharts-bar'
 Vue.use(mlBar2d);
 ```
