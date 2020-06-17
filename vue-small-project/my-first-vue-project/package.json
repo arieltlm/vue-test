@@ -2,7 +2,7 @@
   "name": "my-first-vue-project",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "tanglimei <tanglimei@mininglamp.com>",
+  "author": "tlm",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
