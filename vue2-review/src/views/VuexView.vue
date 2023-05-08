@@ -1,18 +1,16 @@
 <script>
-import SearchBox from '../components/SearchBox.vue'
-import TableBox from '../components/TableBox.vue'
 import Count from '../components/Count.vue'
+import PersonList from '../components/PersonList.vue'
 export default {
-  components: {SearchBox, TableBox, Count},
+  components: {Count, PersonList},
 }
 </script>
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <SearchBox></SearchBox>
     <Count></Count>
-    <hr />
-    <TableBox></TableBox>
+    <el-divider></el-divider>
+    <PersonList></PersonList>
   </div>
 </template>
 

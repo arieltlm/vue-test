@@ -4,7 +4,7 @@ import App from './App.vue'
 import router from './router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-import store from '@/store'
+import store from '@/store/index_named.js'
 
 
 import './assets/main.css'
