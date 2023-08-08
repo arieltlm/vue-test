@@ -30,6 +30,16 @@ const router = new VueRouter({
       path: '/vuex-named',
       name: 'vuex-named',
       component: () => import('../views/VuexNamedView.vue')
+    },
+    {
+      path: '/rotate',
+      name: 'rotate',
+      component: () => import('../views/RotateNav.vue')
+    },
+    {
+      path: '/rotateHorse',
+      name: 'rotateHorse',
+      component: () => import('../views/RotateHorse.vue')
     }
   ]
 })
